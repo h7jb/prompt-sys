@@ -91,3 +91,9 @@ Pull requests are highly welcome! Let's build the best open-source Prompt Engine
 <div align="center">
   <i>If this project helped you write better prompts or save tokens, please consider giving it a ⭐!</i>
 </div>
+
+
+
+# by h7jb
+
+https://mszstudio.sbs
