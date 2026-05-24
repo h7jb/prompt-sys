@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>✨ Ultimate Interactive Prompt Toolkit ✨</h1>
+  <h1>✨ Prompt Toolkit ✨</h1>
   <p><b>Advanced AI Prompt Engineering System & Python Toolchain</b></p>
 
   <p>
