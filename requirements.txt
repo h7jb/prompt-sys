@@ -1,0 +1,15 @@
+# Prompt Toolkit - Core Dependencies
+# Install: pip install -r requirements.txt
+
+# Core - no dependencies needed for basic analysis
+# All core analysis is pure Python (no pip packages required)
+
+# Optional: Token estimation (for token_optimizer.py)
+tiktoken>=0.7.0
+
+# Optional: AI Provider support
+# openai>=1.0.0              # For OpenAI API integration
+# google-generativeai>=0.3.0 # For Google Gemini API integration
+
+# Optional: GUI - tkinter is built-in with Python
+# No additional GUI dependencies needed
