@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "prompt-toolkit"
+version = "2.0.0"
+description = "Advanced AI Prompt Engineering System - Analyze, improve, and generate professional prompts"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["prompt-engineering", "ai", "gpt", "llm", "prompt-analysis"]
+
+[project.urls]
+Homepage = "https://github.com/s11754754-stack/prompt-sys"
+Source = "https://github.com/s11754754-stack/prompt-sys"
+
+[project.scripts]
+prompt-analyze = "prompt_toolkit.cli.analyze:main"
+prompt-interactive = "prompt_toolkit.cli.interactive:main"
+prompt-gui = "prompt_toolkit.gui.app:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
